@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics & The Box Model</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="main-header">
+        <nav class="navigation">
+            <ul class="nav-list">
+                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section" id="home">
+            <h1 class="main-title">Welcome to CSS Styling</h1>
+            <p class="hero-text">Discover the power of CSS and the Box Model to create beautiful, structured web layouts.</p>
+            <button class="cta-button">Get Started</button>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="container">
+                <h2 class="section-title">About CSS Box Model</h2>
+                <p class="section-text">The CSS Box Model is fundamental to understanding how elements are sized and spaced on a webpage. Every element is essentially a box with content, padding, border, and margin.</p>
+                
+                <div class="box-demo">
+                    <div class="demo-content">
+                        <h3>Content Area</h3>
+                        <p>This is where your actual content lives - text, images, or other elements.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="services-section" id="services">
+            <div class="container">
+                <h2 class="section-title">Our Services</h2>
+                <div class="card-container">
+                    <div class="service-card">
+                        <h3 class="card-title">Web Design</h3>
+                        <p class="card-text">Creating stunning visual designs that capture your brand's essence.</p>
+                        <button class="card-button">Learn More</button>
+                    </div>
+                    <div class="service-card">
+                        <h3 class="card-title">Development</h3>
+                        <p class="card-text">Building responsive and functional websites with modern technologies.</p>
+                        <button class="card-button">Learn More</button>
+                    </div>
+                    <div class="service-card">
+                        <h3 class="card-title">Optimization</h3>
+                        <p class="card-text">Improving performance and user experience for better engagement.</p>
+                        <button class="card-button">Learn More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features-section">
+            <div class="container">
+                <h2 class="section-title">Key Features</h2>
+                <ul class="feature-list">
+                    <li class="feature-item">Responsive Design</li>
+                    <li class="feature-item">Cross-Browser Compatibility</li>
+                    <li class="feature-item">Clean Code Structure</li>
+                    <li class="feature-item">Fast Loading Times</li>
+                    <li class="feature-item">SEO Optimized</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="contact-box">
+                    <p class="contact-text">Ready to start your next project? We'd love to hear from you!</p>
+                    <div class="contact-info">
+                        <p class="info-item">Email: trecyann55@gmail.com</p>
+                        <p class="info-item">Phone: +254123456789</p>
+                        <p class="info-item">Address: 123 Web Street, Digital City, DC 12345</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <p class="footer-text">&copy; 2024 CSS Box Model Demo. All rights reserved.</p>
+    </footer>
+</body>
+</html>
